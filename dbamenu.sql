@@ -19,13 +19,7 @@ accept Vchoice number PROMPT 'Choice: '
 var bchoice number;
 var bfilename varchar2(32);
 
-
-
-	
-
-
 column FileToRun new_value FileToRun noprint;
-
 
 begin
 	:bchoice := &vchoice;
